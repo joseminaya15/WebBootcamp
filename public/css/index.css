@@ -67,12 +67,13 @@ h2.title{
     right: 0;
     text-align: center;
 }
-.contenido-buttons button{
+.contenido-buttons a{
 	border: 1px solid #FFFFFF;
 	color: #FFFFFF;
     width: 100%;
     max-width: 120px;
     margin: 5px;
+    text-decoration: none
 }
 .button-down{
     position: absolute;

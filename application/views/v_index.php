@@ -33,12 +33,12 @@
                 <p>January 30th to February 1st, 2018</p>
             </div>
             <div class="contenido-buttons">
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Sponsors</button>
-                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Agenda</button>
+                <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Sponsors</a>
+                <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Agenda</a>
             </div>
-            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down">
+            <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down">
                 <i class="mdi mdi-keyboard_arrow_down"></i>
-            </button>
+            </a>
         </div>
     </section>
     <section id="sponsor">
