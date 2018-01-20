@@ -33,10 +33,10 @@
                 <p>January 30th to February 1st, 2018</p>
             </div>
             <div class="contenido-buttons">
-                <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Sponsors</a>
-                <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Agenda</a>
+                <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Sponsors</a>
+                <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Agenda</a>
             </div>
-            <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down">
+            <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link">
                 <i class="mdi mdi-keyboard_arrow_down"></i>
             </a>
         </div>
@@ -88,35 +88,153 @@
                     <div class="panel-heading" role="tab" id="headingOne">
                         <h4 class="panel-title">
                             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Collapsible Group Item #1
+                                <span>TUE, January 30th</span>
                             </a>
                         </h4>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>8:00 a.m.</td>
+                                        <td>Welcome & Strategy (Andres & Luis)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a.m.</td>
+                                        <td>Nimble (Marcos)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00 a.m.</td>
+                                        <td>Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:15 a.m.</td>
+                                        <td>Hyperconverged (Gualberto)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:15 a.m.</td>
+                                        <td>Synergy (Andres)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:15 p.m.</td>
+                                        <td>Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:45 p.m.</td>
+                                        <td>VMware</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1:45 p.m.</td>
+                                        <td>HPC (Fabio)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2:45 p.m.</td>
+                                        <td>Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:00 p.m.</td>
+                                        <td>Intel</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4:00 p.m.</td>
+                                        <td>LABS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5:30 p.m.</td>
+                                        <td>Teambuilding at PinStack</td>
+                                    </tr>
+                                </tbody>
+                            </table> 
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <span><i></i>5:30pm.</span>
+                    <div>
+                        <p>Team building at PinStack</p>
+                        <small>6205 Dallas Parkway, Plano, TX 75024</small>
+                        <a href="http://pinstackbowl.com/" target="_blank">www.pinstackbowl.com</a>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingTwo">
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Collapsible Group Item #2
+                                <span>WED, January 30th</span>
                             </a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
-
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>8:00 a.m.</td>
+                                        <td>Storage Portfolio Positioning (Luis & Marcos)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a.m.</td>
+                                        <td>3PAR (Luis)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00 a.m.</td>
+                                        <td>Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:15 a.m.</td>
+                                        <td>Storage Big Data (Jensen)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:15 a.m.</td>
+                                        <td>DAPR (TME)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:15 p.m.</td>
+                                        <td>Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:45 p.m.</td>
+                                        <td>Veeam</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1:45 p.m.</td>
+                                        <td>Brocade</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2:45 p.m.</td>
+                                        <td>Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:00 p.m.</td>
+                                        <td>Intel</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4:00 p.m.</td>
+                                        <td>LABS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5:30 p.m.</td>
+                                        <td>Dinner at Fleming's Prime Steakhouse & Wine Bar – Plano</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <span><i></i>5:30pm.</span>
+                    <div>
+                        <p>Dinner at Fleming's Prime Steakhouse & Wine Bar - Plano</p>
+                        <small>7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano, Texas 75024</small>
+                        <a href="https://www.flemingssteakhouse.com/" target="_blank">www.FlemingsSteakhouse.com</a>
                     </div>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Collapsible Group Item #3
+                                <span>THU, February 30th</span>
                             </a>
                         </h4>
                     </div>

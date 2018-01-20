@@ -1,4 +1,4 @@
-$('a[href^="#"]').click(function(e) {
+$('a.link[href^="#"]').click(function(e) {
  	var target = $(this).attr('href');
  	var strip = target.slice(1);
  	var anchor = $("section[id='" + strip + "']");
