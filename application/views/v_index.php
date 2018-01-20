@@ -81,6 +81,7 @@
         </div>
     </section>
     <section id="agenda">
+        <div class="fondo-imagen"></div>
         <div class="container text-center">
             <h2 class="title">AGENDA</h2>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
