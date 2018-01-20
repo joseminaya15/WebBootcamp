@@ -142,7 +142,7 @@
                                     </tr>
                                     <tr>
                                         <td>5:30 p.m.</td>
-                                        <td>Teambuilding at PinStack</td>
+                                        <td>Team building at PinStack</td>
                                     </tr>
                                 </tbody>
                             </table> 
