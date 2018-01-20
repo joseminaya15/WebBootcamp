@@ -150,11 +150,11 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="contenido-break">
                     <span><i></i>5:30pm.</span>
                     <div>
                         <p>Team building at PinStack</p>
-                        <small>6205 Dallas Parkway, Plano, TX 75024</small>
+                        <label>6205 Dallas Parkway, Plano, TX 75024</label>
                         <a href="http://pinstackbowl.com/" target="_blank">www.pinstackbowl.com</a>
                     </div>
                 </div>
@@ -223,11 +223,11 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="contenido-break">
                     <span><i></i>5:30pm.</span>
                     <div>
                         <p>Dinner at Fleming's Prime Steakhouse & Wine Bar - Plano</p>
-                        <small>7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano, Texas 75024</small>
+                        <label>7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano, Texas 75024</label>
                         <a href="https://www.flemingssteakhouse.com/" target="_blank">www.FlemingsSteakhouse.com</a>
                     </div>
                 </div>

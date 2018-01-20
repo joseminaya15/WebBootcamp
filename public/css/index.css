@@ -101,6 +101,23 @@ h2.title{
 .img-sponsor img{
 	max-width: 120px;
 }
+.contenido-break{
+    color: #FFF;
+    text-align: left;
+    padding: 10px 20px;
+}
+.contenido-break label,
+.contenido-break p{
+	margin: 0;
+	line-height: 14px;
+	font-family: 'RobotoRegular';
+	font-weight: 100;
+}
+.contenido-break a{
+	text-decoration: none;
+	color: #01a982;
+    font-family: 'RobotoBold';
+}
 /*BARRA SCROLL*/
 ::-webkit-scrollbar {
 	width: 5px;
