@@ -25,7 +25,8 @@ a{
     background-color: #01a982;
 }
 #principal{
-	height: 100vh;
+	position: relative;
+	height: 100%;
 }
 .fondo-imagen{
 	background: url(../img/fondo-home.jpg) no-repeat center center;
@@ -82,10 +83,6 @@ a{
 	font-size: 18px;
 }
 .contenido-buttons{
-    position: absolute;
-    bottom: 85px;
-    left: 0;
-    right: 0;
     text-align: center;
     max-width: 300px;
     margin: auto;
@@ -100,10 +97,13 @@ a{
 }
 .button-down{
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     left: 0;
     right: 0;
     text-align: center;
+    height: 45px;
+    min-width: 45px;
+    width: 45px;
     background-color: transparent !important;
 }
 .button-down i{
@@ -250,11 +250,18 @@ a{
 	display: block;
 }
 .button-top{
-	position: absolute;
-    right: 25px;
+    position: absolute;
+    right: 15px;
+    min-width: 45px;
+    width: 45px;
+    height: 45px;
+    background-color: transparent !important;
+    box-shadow: none;
+    bottom: 15px;
 }
 .button-top i{
 	color: #01a982;
+	font-size: 40px;
 }
 footer{
     position: relative;

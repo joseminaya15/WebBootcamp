@@ -31,17 +31,17 @@
             <div class="contenido-evento">
                 <h2>HPE Latin America Hybrid IT Bootcamp</h2>
                 <p>January 30th to February 1st, 2018</p>
+                <div class="contenido-buttons">
+                    <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Sponsors</a>
+                    <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link background-pintado">SCHEDULE</a>
+                    <a href="#logistics" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Logistics</a>
+                    <a href="#contact" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Contact</a>
+                </div>
             </div>
-            <div class="contenido-buttons">
-                <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Sponsors</a>
-                <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link background-pintado">SCHEDULE</a>
-                <a href="#logistics" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Logistics</a>
-                <a href="#contact" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Contact</a>
-            </div>
-            <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link">
-                <i class="mdi mdi-keyboard_arrow_down"></i>
-            </a>
         </div>
+        <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link">
+            <i class="mdi mdi-keyboard_arrow_down"></i>
+        </a>
     </section>
     <section id="sponsor">
         <div class="container text-center">
@@ -456,7 +456,7 @@
                     <li><a href="tel:+16145614441">Mobile: ‭+1 (614) 561-4441‬</a></li>
                 </ul>
             </div>
-            <a href="#principal" class="mdl-button mdl-js-button mdl-button--icon button-top link"><i class="mdi mdi-mdi mdi-keyboard_arrow_up"></i></a>
+            <a href="#principal" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-top link"><i class="mdi mdi-mdi mdi-keyboard_arrow_up"></i></a>
         </div>
     </section>
     <footer>

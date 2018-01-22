@@ -1,3 +1,16 @@
+$(document).ready(function() {
+	resizeContent();
+    $(window).resize(function() {
+        resizeContent();
+    });
+});
+
+//CHANGE POSITION HEIGHT-TOP
+function resizeContent() {
+   var top = $( window ).height();
+   $("#principal").css('height', top);
+}
+
 $('a.link[href^="#"]').click(function(e) {
  	var target = $(this).attr('href');
  	var strip = target.slice(1);
