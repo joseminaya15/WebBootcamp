@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible"  content="IE=edge">
     <meta name="viewport"               content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="description"            content="Proyecto de desarrollo de un producto wizard online que tenga un quiz y con una unica solucion que es SAP Business One">
-    <meta name="keywords"               content="SAP,producto wizard">
+    <meta name="description"            content="HPE Latin America Hybrid IT Bootcamp - January 30th to February 1st, 2018">
+    <meta name="keywords"               content="HPE Latin America Hybrid IT Bootcamp">
     <meta name="robots"                 content="Index,Follow">
-    <meta name="date"                   content="January 25, 2018"/>
+    <meta name="date"                   content="January 30, 2018"/>
     <meta name="language"               content="es">
     <meta name="theme-color"            content="#000000">
 	<title>HPE Latin America Hybrid IT Bootcamp</title>
@@ -107,7 +107,7 @@
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
-                                        <td>Hyperconverged (Leonardo)</td>
+                                        <td>Nimble (Marcos)</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -115,34 +115,34 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Synergy (Andres)</td>
+                                        <td>Hyperconverged (Gualberto)</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
-                                        <td>HPC (Fabio, Gualberto)</td>
+                                        <td>Synergy (Andres)</td>
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
                                         <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
-                                        <td>1:00 p.m.</td>
-                                        <td>Nimble Strategy (Marcos)</td>
+                                        <td>12:45 p.m.</td>
+                                        <td>VMware</td>
                                     </tr>
                                     <tr>
-                                        <td>2:00 p.m.</td>
-                                        <td>Nimble NPI (Marcos)</td>
+                                        <td>1:45 p.m.</td>
+                                        <td>HPC (Fabio)</td>
                                     </tr>
                                     <tr>
-                                        <td>3:00 p.m.</td>
+                                        <td>2:45 p.m.</td>
                                         <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
-                                        <td>3:15 p.m.</td>
-                                        <td>VmWare</td>
+                                        <td>3:00 p.m.</td>
+                                        <td>Intel</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="6">4:15 p.m.</td>
+                                        <td rowspan="5">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
@@ -156,9 +156,6 @@
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">VMWare - HIT Mgmnt, <br> Brocade - HIT Mgmnt</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="3">7:00 p.m.</td>
@@ -196,7 +193,7 @@
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
-                                        <td>3PAR (Eduardo Duarte)</td>
+                                        <td>3PAR (Luis)</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -204,34 +201,34 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Veeam</td>
+                                        <td>Storage Big Data (Jensen)</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
-                                        <td>DAPR (Kevin McNally)</td>
+                                        <td>DAPR (TME)</td>
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
                                         <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
-                                        <td>1:00 p.m.</td>
-                                        <td>Storage Big Data (SCALITY)</td>
+                                        <td>12:45 p.m.</td>
+                                        <td>Veeam</td>
                                     </tr>
                                     <tr>
-                                        <td>2:00 p.m.</td>
+                                        <td>1:45 p.m.</td>
                                         <td>Brocade</td>
                                     </tr>
                                     <tr>
-                                        <td>3:00 p.m.</td>
+                                        <td>2:45p.m.</td>
                                         <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
-                                        <td>3:15 p.m.</td>
+                                        <td>3:00 p.m.</td>
                                         <td>DCN (Jairo)</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="7">4:15 p.m.</td>
+                                        <td rowspan="5">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
@@ -245,12 +242,6 @@
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">3PAR Competitive Lab</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Veeam - HIT Mgmnt, <br> Scality - HIT Mgmnt</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="4">7:00 p.m.</td>
@@ -287,7 +278,7 @@
                                 <tbody>
                                     <tr>
                                         <td>8:00 a.m.</td>
-                                        <td>Gen10 (Andres)</td>
+                                        <td>ProLiant Gen10 (Andres)</td>
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
@@ -310,23 +301,23 @@
                                         <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
-                                        <td>1:00 p.m.</td>
+                                        <td>12:45 p.m.</td>
                                         <td>RedHat</td>
                                     </tr>
                                     <tr>
-                                        <td>2:00 p.m.</td>
-                                        <td>PointNext (Claudia)</td>
+                                        <td>1:45 p.m.</td>
+                                        <td>PointNext (Ramon)</td>
                                     </tr>
                                     <tr>
-                                        <td>3:00 p.m.</td>
+                                        <td>2:45 p.m.</td>
                                         <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
-                                        <td>3:15 p.m.</td>
-                                        <td>AMD (Ralph Gonzalez)</td>
+                                        <td>3:00 p.m.</td>
+                                        <td>AMD</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="6">4:15 p.m.</td>
+                                        <td rowspan="5">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
@@ -340,9 +331,6 @@
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Veeam - HIT Mgmnt, <br> Scality - HIT Mgmnt</td>
                                     </tr>
                                     <tr>
                                         <td>5:30 p.m.</td>
