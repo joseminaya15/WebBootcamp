@@ -107,7 +107,7 @@
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
-                                        <td>Nimble (Marcos)</td>
+                                        <td>Hyperconverged (Leonardo)</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -115,47 +115,50 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Hyperconverged (Gualberto)</td>
+                                        <td>Synergy (Andres)</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
-                                        <td>Synergy (Andres)</td>
+                                        <td>HPC (Fabio, Gualberto)</td>
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
                                         <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
-                                        <td>12:45 p.m.</td>
-                                        <td>VMware</td>
+                                        <td>1:00 p.m.</td>
+                                        <td>Nimble Strategy (Marcos)</td>
                                     </tr>
                                     <tr>
-                                        <td>1:45 p.m.</td>
-                                        <td>HPC (Fabio)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2:45 p.m.</td>
-                                        <td class="font-bold">Break</td>
+                                        <td>2:00 p.m.</td>
+                                        <td>Nimble NPI (Marcos)</td>
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>Intel</td>
+                                        <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td>3:15 p.m.</td>
+                                        <td>VmWare</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="6">4:15 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">Nimble</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">Oneview</td>
+                                        <td class="text-left">OneView</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">DAPR</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">VMWare - HIT Mgmnt, <br> Brocade - HIT Mgmnt</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="3">7:00 p.m.</td>
@@ -193,7 +196,7 @@
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
-                                        <td>3PAR (Luis)</td>
+                                        <td>3PAR (Eduardo Duarte)</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -201,47 +204,53 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Storage Big Data (Jensen)</td>
+                                        <td>Veeam</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
-                                        <td>DAPR (TME)</td>
+                                        <td>DAPR (Kevin McNally)</td>
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
                                         <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
-                                        <td>12:45 p.m.</td>
-                                        <td>Veeam</td>
+                                        <td>1:00 p.m.</td>
+                                        <td>Storage Big Data (SCALITY)</td>
                                     </tr>
                                     <tr>
-                                        <td>1:45 p.m.</td>
+                                        <td>2:00 p.m.</td>
                                         <td>Brocade</td>
                                     </tr>
                                     <tr>
-                                        <td>2:45 p.m.</td>
+                                        <td>3:00 p.m.</td>
                                         <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
-                                        <td>3:00 p.m.</td>
+                                        <td>3:15 p.m.</td>
                                         <td>DCN (Jairo)</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td rowspan="7">4:15 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">Nimble</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">Oneview</td>
+                                        <td class="text-left">OneView</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">DAPR</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">3PAR Competitive Lab</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Veeam - HIT Mgmnt, <br> Scality - HIT Mgmnt</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="4">7:00 p.m.</td>
@@ -278,7 +287,7 @@
                                 <tbody>
                                     <tr>
                                         <td>8:00 a.m.</td>
-                                        <td>ProLiant Gen10 (Andres)</td>
+                                        <td>Gen10 (Andres)</td>
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
@@ -301,36 +310,39 @@
                                         <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
-                                        <td>12:45 p.m.</td>
+                                        <td>1:00 p.m.</td>
                                         <td>RedHat</td>
                                     </tr>
                                     <tr>
-                                        <td>1:45 p.m.</td>
-                                        <td>Pointnext (Claudia)</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2:45 p.m.</td>
-                                        <td class="font-bold">Break</td>
+                                        <td>2:00 p.m.</td>
+                                        <td>PointNext (Claudia)</td>
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>AMD</td>
+                                        <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td>3:15 p.m.</td>
+                                        <td>AMD (Ralph Gonzalez)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="6">4:15 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">Nimble</td>
                                     </tr>
                                     <tr>
-                                        <td class="text-left">Oneview</td>
+                                        <td class="text-left">OneView</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">DAPR</td>
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Veeam - HIT Mgmnt, <br> Scality - HIT Mgmnt</td>
                                     </tr>
                                     <tr>
                                         <td>5:30 p.m.</td>
