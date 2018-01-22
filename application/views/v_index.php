@@ -228,7 +228,7 @@
                                         <td>DCN (Jairo)</td>
                                     </tr>
                                     <tr>
-                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td rowspan="6">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
@@ -242,6 +242,9 @@
                                     </tr>
                                     <tr>
                                         <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Lab Storage Competitive</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="4">7:00 p.m.</td>
@@ -409,7 +412,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingSix">
                         <h4 class="panel-title">
-                            <a class="collapsed" role="button" href="http://test.brainblue.com/hpe_bootcamp" target="_blank">
+                            <a class="collapsed" role="button" href="http://marketinghpe.com/hpe_bootcamp/labs/Login" target="_blank">
                                 <ul>
                                     <li>HPE - LABS Reservation Page</li>
                                 </ul>
