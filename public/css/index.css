@@ -6,6 +6,19 @@ body{
 h2.title{
 	font-family: 'RobotoBold';
 	font-size: 32px;
+	line-height: 34px;
+}
+h2.subtitle{
+    font-family: 'RobotoRegular';
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid #ADADAD;
+    margin: 15px 0;
+    line-height: 24px;
+    color: #ADADAD;
+}
+a{
+	text-decoration: none !important;
 }
 #principal{
 	height: 100vh;
@@ -14,7 +27,7 @@ h2.title{
 	background: url(../img/fondo-home.jpg) no-repeat center center;
 	background-size: cover !important;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: block;
     position: absolute;
     right: 0;
@@ -32,7 +45,7 @@ h2.title{
 	background-color: #000000;
 	opacity: .65;
 	z-index: 0;
-	height: 100vh;
+	height: 100%;
 }
 .logo-home img{
 	max-width: 250px;
@@ -66,10 +79,12 @@ h2.title{
 }
 .contenido-buttons{
     position: absolute;
-    bottom: 120px;
+    bottom: 85px;
     left: 0;
     right: 0;
     text-align: center;
+    max-width: 300px;
+    margin: auto;
 }
 .contenido-buttons a{
 	border: 1px solid #FFFFFF;
@@ -136,6 +151,7 @@ h2.title{
 	background-color: #EFEFEF;
     padding: 50px 0;
 }
+/*AGENDA*/
 #agenda{
 	position: relative;
 	padding: 50px 0;
@@ -143,16 +159,138 @@ h2.title{
 #agenda h2{
 	color: #FFFFFF;
 }
+.panel-title a{
+	display: flex;
+	text-decoration: none;
+}
+.panel-title a ul{
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding-left: 20px;
+    font-family: 'RobotoBold';
+    font-size: 16px;
+    vertical-align: middle;
+}
+.panel-title a i{
+    width: 100%;
+    max-width: 25px;
+    vertical-align: middle;
+    color: #01a982;
+    transform: rotate(180deg);
+	-webkit-transition: transform .3s linear;
+	-moz-transition: transform .3s linear;
+	-ms-transition: transform .3s linear;
+	-o-transition: transform .3s linear;
+    transition: transform .3s linear;
+}
+.panel-body{
+	padding: 10px 5px;
+}
+.panel-title a.collapsed i{
+    transform: rotate(0);
+}
+/*LOGISTICS*/
+#logistics {
+    position: relative;
+    background-color: #EFEFEF;
+    padding: 50px 0;
+}
+.mdl-card .mdl-card__title img{
+    width: 100%;
+    max-width: 250px;
+    margin:; auto;
+}
+.mdl-card{
+    width: 100%;
+    max-width: 265px;
+    margin: 15px auto;
+}
+.mdl-card .mdl-card__supporting-text{
+	width: 100%;
+	text-align: left;
+    padding: 0 16px;
+}
+.mdl-card .mdl-card__supporting-text h2{
+	font-size: 20px;
+	line-height: 22px;
+	color: #000000;
+	font-family: 'RobotoBold';
+    margin: 0;
+    margin-bottom: 15px;
+}
+.mdl-card .mdl-card__supporting-text p{
+	color: #000000;
+    line-height: 18px;
+    font-family: 'RobotoRegular';
+    margin: 0;
+}
+.mdl-card .mdl-card__supporting-text a{
+	text-decoration: none;
+	font-family: 'RobotoBold';
+	color: #000000;
+}
+/*CONTACT INFORMATION*/
+#contact {
+    position: relative;
+    padding: 50px 0;
+}
+.contenido-contact{
+	text-align: left;
+	padding: 10px;
+}
+.contenido-contact a{
+	color: #000000;
+	cursor: pointer;
+	text-decoration: none;
+	display: block;
+}
+.button-top{
+	position: absolute;
+    right: 25px;
+}
+.button-top i{
+	color: #01a982;
+}
 footer{
     position: relative;
     padding: 20px 10px;
     background-color: #000000;
     color: #FFFFFF;
 }
+footer p.content{
+	font-size: 12px;
+}
 footer p{
     margin: 0;
     padding: 10px 0;
     line-height: 16px;
+    font-size: 11px;
+}/*TABLE*/
+table{
+	text-align: left;
+}
+table tbody tr td:FIRST-CHILD{
+	border-right: 2px solid #01a982;
+	min-width: 90px;
+    text-align: right;
+}
+table tbody tr td.text-left:FIRST-CHILD{
+	border: none;
+    text-align: left;
+}
+table tbody tr td{
+	padding: 5px 10px;
+    vertical-align: top;
+    line-height: 14px;
+    font-family: 'RobotoRegular';
+}
+table tbody tr td.font-bold{
+    font-family: 'RobotoBold';
+}
+table tbody tr td a{
+	text-decoration: none;
+	color: #FF8D6D;
 }
 @media ( max-width: 420px ){
 	.contenido-evento{

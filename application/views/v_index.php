@@ -35,6 +35,8 @@
             <div class="contenido-buttons">
                 <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Sponsors</a>
                 <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Agenda</a>
+                <a href="#logistics" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Logistics</a>
+                <a href="#contact" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Contact</a>
             </div>
             <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link">
                 <i class="mdi mdi-keyboard_arrow_down"></i>
@@ -50,16 +52,10 @@
                 </div>
             </div>
             <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_2.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_3.png">
-            </div>
-            <div class="img-sponsor">
                 <img src="<?php echo RUTA_IMG?>sponsor/logo_4.png">
             </div>
             <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_5.png">
+                <img src="<?php echo RUTA_IMG?>sponsor/logo_3.png">
             </div>
             <div class="img-sponsor">
                 <img src="<?php echo RUTA_IMG?>sponsor/logo_6.png">
@@ -68,10 +64,16 @@
                 <img src="<?php echo RUTA_IMG?>sponsor/logo_7.png">
             </div>
             <div class="img-sponsor">
+                <img src="<?php echo RUTA_IMG?>sponsor/logo_9.png">
+            </div>
+            <div class="img-sponsor">
+                <img src="<?php echo RUTA_IMG?>sponsor/logo_5.png">
+            </div>
+            <div class="img-sponsor">
                 <img src="<?php echo RUTA_IMG?>sponsor/logo_8.png">
             </div>
             <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_9.png">
+                <img src="<?php echo RUTA_IMG?>sponsor/logo_2.png">
             </div>
             <div col-xs-12>
                 <div class="img-sponsor">
@@ -88,8 +90,11 @@
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingOne">
                         <h4 class="panel-title">
-                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span>TUE, January 30th</span>
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <ul>
+                                    <li>TUE, January 30th</li>
+                                </ul>
+                                <i class="mdi mdi-keyboard_arrow_down"></i>
                             </a>
                         </h4>
                     </div>
@@ -107,7 +112,7 @@
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
-                                        <td>Break</td>
+                                        <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
@@ -119,7 +124,7 @@
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
-                                        <td>Lunch</td>
+                                        <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
                                         <td>12:45 p.m.</td>
@@ -131,38 +136,51 @@
                                     </tr>
                                     <tr>
                                         <td>2:45 p.m.</td>
-                                        <td>Break</td>
+                                        <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
                                         <td>Intel</td>
                                     </tr>
                                     <tr>
-                                        <td>4:00 p.m.</td>
-                                        <td>LABS</td>
+                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
-                                        <td>5:30 p.m.</td>
+                                        <td class="text-left">Nimble</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Oneview</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">DAPR</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">7:00 p.m.</td>
                                         <td>Team building at PinStack</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">6205 Dallas Parkway, Plano, TX 75024</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left"><a href="http://www.pinstackbowl.com/" target="_blank">www.pinstackbowl.com</a></td>
                                     </tr>
                                 </tbody>
                             </table> 
                         </div>
                     </div>
                 </div>
-                <div class="contenido-break">
-                    <span><i></i>5:30pm.</span>
-                    <div>
-                        <p>Team building at PinStack</p>
-                        <label>6205 Dallas Parkway, Plano, TX 75024</label>
-                        <a href="http://pinstackbowl.com/" target="_blank">www.pinstackbowl.com</a>
-                    </div>
-                </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingTwo">
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <span>WED, January 30th</span>
+                                <ul>
+                                    <li>WED, January 31th</li>
+                                </ul>
+                                <i class="mdi mdi-keyboard_arrow_down"></i>
                             </a>
                         </h4>
                     </div>
@@ -180,7 +198,7 @@
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
-                                        <td>Break</td>
+                                        <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
@@ -192,7 +210,7 @@
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
-                                        <td>Lunch</td>
+                                        <td class="font-bold">Lunch</td>
                                     </tr>
                                     <tr>
                                         <td>12:45 p.m.</td>
@@ -204,53 +222,246 @@
                                     </tr>
                                     <tr>
                                         <td>2:45 p.m.</td>
-                                        <td>Break</td>
+                                        <td class="font-bold">Break</td>
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>Intel</td>
+                                        <td>DCN (Jairo)</td>
                                     </tr>
                                     <tr>
-                                        <td>4:00 p.m.</td>
-                                        <td>LABS</td>
+                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td class="font-bold">LABS</td>
                                     </tr>
                                     <tr>
-                                        <td>5:30 p.m.</td>
+                                        <td class="text-left">Nimble</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Oneview</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">DAPR</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="4">7:00 p.m.</td>
                                         <td>Dinner at Fleming's Prime Steakhouse & Wine Bar – Plano</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Texas 75024</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left"><a href="https://www.flemingssteakhouse.com/" target="_blank">www.FlemingsSteakhouse.com</a></td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-                <div class="contenido-break">
-                    <span><i></i>5:30pm.</span>
-                    <div>
-                        <p>Dinner at Fleming's Prime Steakhouse & Wine Bar - Plano</p>
-                        <label>7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano, Texas 75024</label>
-                        <a href="https://www.flemingssteakhouse.com/" target="_blank">www.FlemingsSteakhouse.com</a>
-                    </div>
-                </div>
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span>THU, February 30th</span>
+                                <ul>
+                                    <li>THU, February 1st</li>
+                                </ul>
+                                <i class="mdi mdi-keyboard_arrow_down"></i>
                             </a>
                         </h4>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="panel-body">
-
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>8:00 a.m.</td>
+                                        <td>ProLiant Gen10 (Andres)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00 a.m.</td>
+                                        <td>MCS (Gualberto)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00 a.m.</td>
+                                        <td class="font-bold">Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:15 a.m.</td>
+                                        <td>Apolo 2000 (Radhika)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:15 a.m.</td>
+                                        <td>Superdome Flex HANA (Gualberto)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:15 p.m.</td>
+                                        <td class="font-bold">Lunch</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:45 p.m.</td>
+                                        <td>RedHat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1:45 p.m.</td>
+                                        <td>Pointnext (Claudia)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2:45 p.m.</td>
+                                        <td class="font-bold">Break</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:00 p.m.</td>
+                                        <td>AMD</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="5">4:00 p.m.</td>
+                                        <td class="font-bold">LABS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Nimble</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Oneview</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">DAPR</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">Simplivity</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5:30 p.m.</td>
+                                        <td>Free time</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section id="logistics">
+        <div class="container text-center">
+            <h2 class="title">LOGISTICS</h2>
+            <div class="panel-group" id="accordion1" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <ul>
+                                    <li>Bus Schedule</li>
+                                </ul>
+                                <i class="mdi mdi-keyboard_arrow_down"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <ul>
+                                <li class="text-left">Bus #1: Arrival between 05:00 - 09:00</li>
+                                <li class="text-left">Bus #2: Arrival between 09:00 - 13:00 </li>
+                                <li class="text-left">Bus #3: Arrival between 13:00 - 17:00 </li>
+                                <li class="text-left">Bus #4: Arrival between 17:00 - 21:00 </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <ul>
+                                    <li>Hotel Information</li>
+                                </ul>
+                                <i class="mdi mdi-keyboard_arrow_down"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                        <div class="panel-body">
+                            <div class="mdl-card">
+                                <div class="mdl-card__title">
+                                    <img src="<?php echo RUTA_IMG?>hotel/hotelPlano.jpg">
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    <h2>Plano Legacy Frisco <br> La Quinta Inn & Suites</h2>
+                                    <p>6624 Communications Parkway Plano, TX 75024, United States</p>
+                                    <a href="tel:+12142658900">Phone: +1(214)265-8900</a>
+                                </div>
+                            </div>
+                            <div class="mdl-card">
+                                <div class="mdl-card__title">
+                                    <img src="<?php echo RUTA_IMG?>hotel/hotelHilton.jpg">
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    <h2>Embassy Suites by <br> Hilton Dallas Frisco Hotel Convention Center & Spa</h2>
+                                    <p>7600 John Q. Hammons Drive Dallas, TX 75034, United States</p>
+                                    <a href="tel:+18552144563">Phone: +1(855)214-4563</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingSix">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" href="http://test.brainblue.com/hpe_bootcamp" target="_blank">
+                                <ul>
+                                    <li>HPE - LABS Reservation Page</li>
+                                </ul>
+                                <i class="mdi mdi-input"></i>
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingSeven">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                <ul>
+                                    <li>General Recommendations</li>
+                                </ul>
+                                <i class="mdi mdi-keyboard_arrow_down"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                        <div class="panel-body">
+                            <ul>
+                                <li class="text-left">Business casual for the conferences.</li>
+                                <li class="text-left">No open toed shoes or inappropriate attire on the manufacturing floor.</li>
+                                <li class="text-left">No purses, briefcases or large bags of any kind.</li>
+                                <li class="text-left">No food or drinks.</li>
+                                <li class="text-left">No picture taking or video cameras unless for a pre-arranged photo shoot.</li>
+                                <li class="text-left">No rude language or inappropiate behavior.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container text-center">
+            <h2 class="title">CONTACT INFORMATION</h2>
+            <div class="contenido-contact">
+                <ul>
+                    <li>Patty Dixon</li>
+                    <li><a href="mailto:drdxn@aol.com">Email: drdxn@aol.com</a></li>
+                    <li><a href="tel:+16145614441">Mobile: ‭+1 (614) 561-4441‬</a></li>
+                </ul>
+            </div>
+            <a href="#principal" class="mdl-button mdl-js-button mdl-button--icon button-top link"><i class="mdi mdi-mdi mdi-keyboard_arrow_up"></i></a>
+        </div>
+    </section>
     <footer>
         <div class="container text-center">
-            <p>Intel and the Intel logo are trademarks of the Corporation in the United States and / or other countries.</p>
+            <p class="content">Intel and the Intel logo are trademarks of the Corporation in the United States and / or other countries.</p>
             <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
         </div>
     </footer>
