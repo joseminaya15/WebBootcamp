@@ -20,6 +20,10 @@ h2.subtitle{
 a{
 	text-decoration: none !important;
 }
+.contenido-buttons a.background-pintado{
+	border: none;
+    background-color: #01a982;
+}
 #principal{
 	height: 100vh;
 }

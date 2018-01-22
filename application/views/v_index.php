@@ -34,7 +34,7 @@
             </div>
             <div class="contenido-buttons">
                 <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Sponsors</a>
-                <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Agenda</a>
+                <a href="#agenda" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link background-pintado">SCHEDULE</a>
                 <a href="#logistics" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Logistics</a>
                 <a href="#contact" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect link">Contact</a>
             </div>
@@ -70,14 +70,14 @@
                 <img src="<?php echo RUTA_IMG?>sponsor/logo_5.png">
             </div>
             <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_8.png">
+                <img src="<?php echo RUTA_IMG?>sponsor/logo_10.png">
             </div>
             <div class="img-sponsor">
                 <img src="<?php echo RUTA_IMG?>sponsor/logo_2.png">
             </div>
             <div col-xs-12>
                 <div class="img-sponsor">
-                    <img src="<?php echo RUTA_IMG?>sponsor/logo_10.png">
+                    <img src="<?php echo RUTA_IMG?>sponsor/logo_8.png">
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
     <section id="agenda">
         <div class="fondo-imagen"></div>
         <div class="container text-center">
-            <h2 class="title">AGENDA</h2>
+            <h2 class="title">SCHEDULE</h2>
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading" role="tab" id="headingOne">
