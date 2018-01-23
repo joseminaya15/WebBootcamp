@@ -293,6 +293,9 @@ a{
     font-size: 40px;
     color: #01a982;
 }
+#agenda .button-up-down a i{
+    color: #FFFFFF;
+}
 footer{
     position: relative;
     padding: 20px 10px;

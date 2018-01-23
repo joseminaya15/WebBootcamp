@@ -384,7 +384,7 @@
                             </ul>
                             <small>If your arrival time is outside of these pre-arranged services you must find a way to get to your hotel. Important: Buses are only allowed
                              to wait for 1 hour at the airport.</small>
-                            <h2 class="subtitle">Transportation from Hotel to Aiport</h2>
+                            <h2 class="subtitle m-t-15">Transportation from Hotel to Aiport</h2>
                         </div>
                     </div>
                 </div>
