@@ -44,7 +44,7 @@
     </section>
     <section id="sponsor">
         <div class="container text-center">
-            <h2 class="title">SPONSOR</h2>
+            <h2 class="title">SPONSORS</h2>
             <div col-xs-12>
                 <div class="img-sponsor">
                     <img src="<?php echo RUTA_IMG?>sponsor/logo_1.png">
@@ -79,6 +79,10 @@
                     <img src="<?php echo RUTA_IMG?>sponsor/logo_8.png">
                 </div>
             </div>
+        </div>
+        <div class="button-up-down">
+            <a href="#agenda" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect link"><i class="mdi mdi-mdi mdi-keyboard_arrow_down"></i></a>
+            <a href="#principal" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect link"><i class="mdi mdi-mdi mdi-keyboard_arrow_up"></i></a>
         </div>
     </section>
     <section id="agenda">
@@ -346,6 +350,10 @@
                 </div>
             </div>
         </div>
+        <div class="button-up-down">
+            <a href="#logistics" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect link"><i class="mdi mdi-mdi mdi-keyboard_arrow_down"></i></a>
+            <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect link"><i class="mdi mdi-mdi mdi-keyboard_arrow_up"></i></a>
+        </div>
     </section>
     <section id="logistics">
         <div class="container text-center">
@@ -363,13 +371,20 @@
                         </h4>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                        <div class="panel-body">
+                        <div class="panel-body panel-bus">
+                            <h2 class="subtitle">Transportation from Aiport to Hotel</h2>
+                            <p>There are 4 buses from <strong>Premier Transportation</strong> scheduled at the airport. Look for the <strong>HPE Bootcamp</strong> sign.
+                             Pick up point will be at <strong>TERMINAL "D", GATE 22, CURBSIDE.</strong></p>
+                            <p>Times are as follows:</p>
                             <ul>
-                                <li class="text-left">Bus #1: Arrival between 05:00 - 09:00</li>
-                                <li class="text-left">Bus #2: Arrival between 09:00 - 13:00 </li>
-                                <li class="text-left">Bus #3: Arrival between 13:00 - 17:00 </li>
-                                <li class="text-left">Bus #4: Arrival between 17:00 - 21:00 </li>
+                                <li class="text-left">Bus #1: passengers arriving between 05:00 and 09:00: <strong>Bus will be waiting from 8:00am to 9:00am</strong></li>
+                                <li class="text-left">Bus #2: passengers arriving between 09:00 and 13:00: <strong>Bus will be waiting from 12:00pm to 1:00pm</strong></li>
+                                <li class="text-left">Bus #3: passengers arriving between 13:00 and 17:00: <strong>Bus will be waiting from 4:00pm to 5:00pm</strong></li>
+                                <li class="text-left">Bus #4: passengers arriving between 17:00 and 21:00: <strong>Bus will be waiting from 8:00pm to 9:00pm</strong></li>
                             </ul>
+                            <small>If your arrival time is outside of these pre-arranged services you must find a way to get to your hotel. Important: Buses are only allowed
+                             to wait for 1 hour at the airport.</small>
+                            <h2 class="subtitle">Transportation from Hotel to Aiport</h2>
                         </div>
                     </div>
                 </div>
@@ -436,7 +451,6 @@
                         <div class="panel-body">
                             <ul>
                                 <li class="text-left">Business casual for the conferences.</li>
-                                <li class="text-left">No open toed shoes or inappropriate attire on the manufacturing floor.</li>
                                 <li class="text-left">No purses, briefcases or large bags of any kind.</li>
                                 <li class="text-left">No food or drinks.</li>
                                 <li class="text-left">No picture taking or video cameras unless for a pre-arranged photo shoot.</li>
@@ -452,8 +466,8 @@
         <div class="container text-center">
             <h2 class="title">CONTACT INFORMATION</h2>
             <div class="contenido-contact">
-                <ul>
-                    <li>Patty Dixon</li>
+                <p>Patty Dixon</p>
+                <ul class="p-l-15">
                     <li><a href="mailto:drdxn@aol.com">Email: drdxn@aol.com</a></li>
                     <li><a href="tel:+16145614441">Mobile: ‭+1 (614) 561-4441‬</a></li>
                 </ul>

@@ -12,10 +12,10 @@ h2.subtitle{
     font-family: 'RobotoRegular';
     font-size: 18px;
     text-align: left;
-    border-bottom: 1px solid #ADADAD;
+    border-bottom: 1px solid #000000;
     margin: 15px 0;
     line-height: 24px;
-    color: #ADADAD;
+    margin-top: 0;
 }
 a{
 	text-decoration: none !important;
@@ -191,6 +191,13 @@ a{
 .panel-body{
 	padding: 10px 5px;
 }
+.panel-body.panel-bus{
+    padding: 20px;
+    text-align: left;
+}
+.panel-body.panel-bus ul{
+    padding-left: 15px;
+}
 .panel-title a.collapsed i{
     transform: rotate(0);
 }
@@ -249,6 +256,11 @@ a{
 	text-decoration: none;
 	display: block;
 }
+.contenido-contact p{
+    font-size: 18px;
+    font-family: 'RobotoBold';
+    margin-bottom: 3px;
+}
 .button-top{
     position: absolute;
     right: 15px;
@@ -262,6 +274,24 @@ a{
 .button-top i{
 	color: #01a982;
 	font-size: 40px;
+}
+.button-up-down{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.button-up-down a{
+    min-width: 45px;
+    width: 45px;
+    height: 45px;
+    box-shadow: none;
+    background-color: transparent;
+}
+.button-up-down a i{
+    font-size: 40px;
+    color: #01a982;
 }
 footer{
     position: relative;
