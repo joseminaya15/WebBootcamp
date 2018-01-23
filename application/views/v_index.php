@@ -18,7 +18,7 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
+	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.min.css?v=<?php echo time();?>">
 </head>
 <body>
     <section id="principal">
@@ -38,9 +38,7 @@
                 </div>
             </div>
         </div>
-        <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link">
-            <i class="mdi mdi-keyboard_arrow_down"></i>
-        </a>
+        <a href="#sponsor" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect button-down link"><i class="mdi mdi-keyboard_arrow_down"></i></a>
     </section>
     <section id="sponsor">
         <div class="container text-center">
@@ -50,34 +48,16 @@
                     <img src="<?php echo RUTA_IMG?>sponsor/logo_1.png">
                 </div>
             </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_4.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_3.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_6.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_7.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_9.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_5.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_10.png">
-            </div>
-            <div class="img-sponsor">
-                <img src="<?php echo RUTA_IMG?>sponsor/logo_2.png">
-            </div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_4.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_3.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_6.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_7.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_9.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_5.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_10.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_2.png"></div>
             <div col-xs-12>
-                <div class="img-sponsor">
-                    <img src="<?php echo RUTA_IMG?>sponsor/logo_8.png">
-                </div>
+                <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_8.png"></div>
             </div>
         </div>
         <div class="button-up-down">
@@ -149,28 +129,16 @@
                                         <td rowspan="5">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
-                                    <tr>
-                                        <td class="text-left">Nimble</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">OneView</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">DAPR</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Simplivity</td>
-                                    </tr>
+                                    <tr><td class="text-left">Nimble</td></tr>
+                                    <tr><td class="text-left">OneView</td></tr>
+                                    <tr><td class="text-left">DAPR</td></tr>
+                                    <tr><td class="text-left">Simplivity</td></tr>
                                     <tr>
                                         <td rowspan="3">7:00 p.m.</td>
                                         <td>Team building at PinStack</td>
                                     </tr>
-                                    <tr>
-                                        <td class="text-left">6205 Dallas Parkway, Plano, TX 75024</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left"><a href="http://www.pinstackbowl.com/" target="_blank">www.pinstackbowl.com</a></td>
-                                    </tr>
+                                    <tr><td class="text-left">6205 Dallas Parkway, Plano, TX 75024</td></tr>
+                                    <tr><td class="text-left"><a href="http://www.pinstackbowl.com/" target="_blank">www.pinstackbowl.com</a></td></tr>
                                 </tbody>
                             </table> 
                         </div>
@@ -235,34 +203,18 @@
                                         <td rowspan="6">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
-                                    <tr>
-                                        <td class="text-left">Nimble</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">OneView</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">DAPR</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Simplivity</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Lab Storage Competitive</td>
-                                    </tr>
+                                    <tr><td class="text-left">Nimble</td></tr>
+                                    <tr><td class="text-left">OneView</td></tr>
+                                    <tr><td class="text-left">DAPR</td></tr>
+                                    <tr><td class="text-left">Simplivity</td></tr>
+                                    <tr><td class="text-left">Lab Storage Competitive</td></tr>
                                     <tr>
                                         <td rowspan="4">7:00 p.m.</td>
                                         <td>Dinner at Fleming's Prime Steakhouse & Wine Bar – Plano</td>
                                     </tr>
-                                    <tr>
-                                        <td class="text-left">7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Texas 75024</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left"><a href="https://www.flemingssteakhouse.com/" target="_blank">www.FlemingsSteakhouse.com</a></td>
-                                    </tr>
+                                    <tr><td class="text-left">7250 North Dallas Parkway, Suite 110, The Legacy Tower Plano</td></tr>
+                                    <tr><td class="text-left">Texas 75024</td></tr>
+                                    <tr><td class="text-left"><a href="https://www.flemingssteakhouse.com/" target="_blank">www.FlemingsSteakhouse.com</a></td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -327,18 +279,10 @@
                                         <td rowspan="5">4:00 p.m.</td>
                                         <td class="font-bold">LABS</td>
                                     </tr>
-                                    <tr>
-                                        <td class="text-left">Nimble</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">OneView</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">DAPR</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="text-left">Simplivity</td>
-                                    </tr>
+                                    <tr><td class="text-left">Nimble</td></tr>
+                                    <tr><td class="text-left">OneView</td></tr>
+                                    <tr><td class="text-left">DAPR</td></tr>
+                                    <tr><td class="text-left">Simplivity</td></tr>
                                     <tr>
                                         <td>5:30 p.m.</td>
                                         <td>Free time</td>
@@ -373,8 +317,7 @@
                     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                         <div class="panel-body panel-bus">
                             <h2 class="subtitle">Transportation from Aiport to Hotel</h2>
-                            <p>There are 4 buses from <strong>Premier Transportation</strong> scheduled at the airport. Look for the <strong>HPE Bootcamp</strong> sign.
-                             Pick up point will be at <strong>TERMINAL "D", GATE 22, CURBSIDE.</strong></p>
+                            <p>There are 4 buses from <strong>Premier Transportation</strong> scheduled at the airport. Look for the <strong>HPE Bootcamp</strong> sign. Pick up point will be at <strong>TERMINAL "D", GATE 22, CURBSIDE.</strong></p>
                             <p>Times are as follows:</p>
                             <ul>
                                 <li class="text-left">Bus #1: passengers arriving between 05:00 and 09:00: <strong>Bus will be waiting from 8:00am to 9:00am</strong></li>
@@ -382,9 +325,9 @@
                                 <li class="text-left">Bus #3: passengers arriving between 13:00 and 17:00: <strong>Bus will be waiting from 4:00pm to 5:00pm</strong></li>
                                 <li class="text-left">Bus #4: passengers arriving between 17:00 and 21:00: <strong>Bus will be waiting from 8:00pm to 9:00pm</strong></li>
                             </ul>
-                            <small>If your arrival time is outside of these pre-arranged services you must find a way to get to your hotel. Important: Buses are only allowed
-                             to wait for 1 hour at the airport.</small>
+                            <small>If your arrival time is outside of these pre-arranged services you must find a way to get to your hotel. Important: Buses are only allowed to wait for 1 hour at the airport.</small>
                             <h2 class="subtitle m-t-15">Transportation from Hotel to Aiport</h2>
+                            <p>Coming soon</p>
                         </div>
                     </div>
                 </div>
