@@ -154,12 +154,12 @@ a{
 #sponsor{
 	position: relative;
 	background-color: #EFEFEF;
-    padding: 40px 0;
+    padding: 40px 0 60px 0;
 }
 /*AGENDA*/
 #agenda{
 	position: relative;
-	padding: 40px 0;
+	padding: 40px 0 60px 0;
 }
 #agenda h2{
 	color: #FFFFFF;
