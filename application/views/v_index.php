@@ -48,17 +48,12 @@
                     <img src="<?php echo RUTA_IMG?>sponsor/logo_1.png">
                 </div>
             </div>
-            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_4.png"></div>
-            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_3.png"></div>
-            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_6.png"></div>
             <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_7.png"></div>
-            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_9.png"></div>
-            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_5.png"></div>
-            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_10.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_3.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_4.png"></div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_6.png"></div>
             <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_2.png"></div>
-            <div col-xs-12>
-                <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_8.png"></div>
-            </div>
+            <div class="img-sponsor"><img src="<?php echo RUTA_IMG?>sponsor/logo_8.png"></div>
         </div>
         <div class="button-up-down">
             <a href="#agenda" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect link"><i class="mdi mdi-mdi mdi-keyboard_arrow_down"></i></a>
