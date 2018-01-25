@@ -192,7 +192,7 @@
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>DCN (Jairo)</td>
+                                        <td>DCN/VMware NSX (Jairo)</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="6">4:00 p.m.</td>
