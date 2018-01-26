@@ -168,7 +168,7 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Storage Big Data (Jensen)</td>
+                                        <td>Object Storage (Scality)</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
