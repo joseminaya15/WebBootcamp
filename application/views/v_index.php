@@ -102,7 +102,7 @@
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
-                                        <td class="font-bold">Lunch</td>
+                                        <td><strong>Working Lunch</strong> “Value Channels Strategy Working Lunch” (HIT Managers, MKT Managers, Category Managers)</td>
                                     </tr>
                                     <tr>
                                         <td>12:45 p.m.</td>
