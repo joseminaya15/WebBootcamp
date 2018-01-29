@@ -86,7 +86,7 @@
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
-                                        <td>Nimble (Marcos)</td>
+                                        <td>Hyperconverged (Leonardo)</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -94,11 +94,11 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Hyperconverged (Gualberto)</td>
+                                        <td>Synergy (Andres)</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
-                                        <td>Synergy (Andres)</td>
+                                        <td>HPC (Fabio, Gualberto)</td>
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
@@ -106,11 +106,11 @@
                                     </tr>
                                     <tr>
                                         <td>12:45 p.m.</td>
-                                        <td>VMware</td>
+                                        <td>Nimble Strategy (Marcos)</td>
                                     </tr>
                                     <tr>
                                         <td>1:45 p.m.</td>
-                                        <td>HPC (Fabio)</td>
+                                        <td>Nimble NPI (Marcos)</td>
                                     </tr>
                                     <tr>
                                         <td>2:45 p.m.</td>
@@ -118,7 +118,7 @@
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>Intel</td>
+                                        <td>VmWare</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="5">4:00 p.m.</td>
@@ -160,7 +160,7 @@
                                     </tr>
                                     <tr>
                                         <td>9:00 a.m.</td>
-                                        <td>3PAR (Luis)</td>
+                                        <td>3PAR (Eduardo Duarte)</td>
                                     </tr>
                                     <tr>
                                         <td>10:00 a.m.</td>
@@ -168,11 +168,11 @@
                                     </tr>
                                     <tr>
                                         <td>10:15 a.m.</td>
-                                        <td>Object Storage (Scality)</td>
+                                        <td>Veeam</td>
                                     </tr>
                                     <tr>
                                         <td>11:15 a.m.</td>
-                                        <td>DAPR (TME)</td>
+                                        <td>DAPR (Kevin McNally)</td>
                                     </tr>
                                     <tr>
                                         <td>12:15 p.m.</td>
@@ -180,7 +180,7 @@
                                     </tr>
                                     <tr>
                                         <td>12:45 p.m.</td>
-                                        <td>Veeam</td>
+                                        <td>Storage Big Data (SCALITY)</td>
                                     </tr>
                                     <tr>
                                         <td>1:45 p.m.</td>
@@ -268,7 +268,7 @@
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>AMD</td>
+                                        <td>AMD(Ralph Gonzales)</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="5">4:00 p.m.</td>
