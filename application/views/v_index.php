@@ -268,7 +268,7 @@
                                     </tr>
                                     <tr>
                                         <td>3:00 p.m.</td>
-                                        <td>AMD(Ralph Gonzales)</td>
+                                        <td>AMD (Ralph Gonzales)</td>
                                     </tr>
                                     <tr>
                                         <td rowspan="5">4:00 p.m.</td>
