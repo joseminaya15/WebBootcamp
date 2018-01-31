@@ -30,8 +30,6 @@ class Survey extends CI_Controller {
             $suggestions = $this->input->post('suggestions');
             $future 	 = $this->input->post('future');
             $rate 		 = $this->input->post('rate');
-            $datos 		 = $this->M_encuesta->getDatosPersona("nora.hdz@hpe.com");
-            print_r($datos[0]->Id);
             /*$arrayInsert = array('Suggestions'   => $suggestions);
             $this->M_encuesta->insertarDatos($arrayInsert, 'survey');*/
             $data['error'] = EXIT_SUCCESS;
