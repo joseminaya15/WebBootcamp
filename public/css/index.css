@@ -313,6 +313,15 @@ footer p{
     font-size: 11px;
 }
 /*LOGIN*/
+.mdl-textfield__label:after{
+    bottom: 15px;
+    background-color: #000000;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, 
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label, 
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+    color: #000000;
+}
 .logo {
     max-width: 200px;
 }
