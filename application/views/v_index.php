@@ -453,10 +453,5 @@
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>index.js?v=<?php echo time();?>"></script>
-    <script type="text/javascript">
-        $(window).load(function() {
-            $("#ModalLogin").modal('show');
-        });
-    </script>
 </body>
 </html>

@@ -23,6 +23,10 @@ $('a.link[href^="#"]').click(function(e) {
  	}, 'slow');
 });
 
+$(window).load(function() {
+    $("#ModalLogin").modal('show');
+});
+
 function enviarEncuesta(){
 	var valor = [];
 	var boton = [];
