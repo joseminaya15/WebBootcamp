@@ -14,8 +14,8 @@ class Survey extends CI_Controller {
     }
 
 	public function index()
-	{
-		if(_getSesion('correo') == null) {
+	{//isset($user->positions->values) == true ? $user->positions->values[0]->company->name : null
+		if($this->session->userdata('correo') == null) {
 			$newURL = 'Inicio';
 			header('Location: '.$newURL);
 		}
@@ -30,6 +30,7 @@ class Survey extends CI_Controller {
             $suggestions = $this->input->post('suggestions');
             $future 	 = $this->input->post('future');
             $rate 		 = $this->input->post('rate');
+            //$this->session->userdata('Id')
             /*$arrayInsert = array('Suggestions'   => $suggestions);
             $this->M_encuesta->insertarDatos($arrayInsert, 'survey');*/
             $data['error'] = EXIT_SUCCESS;
