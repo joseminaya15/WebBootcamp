@@ -26,7 +26,8 @@ class Survey extends CI_Controller {
             $suggestions = $this->input->post('suggestions');
             $future 	 = $this->input->post('future');
             $rate 		 = $this->input->post('rate');
-            //$datos 		 = $this->M_encuesta->getDatosPersona($this->session->userdata('correo'));
+            $datos 		 = $this->M_encuesta->getDatosPersona("nora.hdz@hpe.com");
+            print_r($datos);
             $data['error'] = EXIT_SUCCESS;
         } catch (Exception $e) {
             $data['msj'] = $e->getMessage();
