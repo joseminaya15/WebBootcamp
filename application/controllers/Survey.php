@@ -14,7 +14,7 @@ class Survey extends CI_Controller {
     }
 
 	public function index()
-	{//isset($user->positions->values) == true ? $user->positions->values[0]->company->name : null
+	{
 		if($this->session->userdata('correo') == null) {
 			$newURL = 'Inicio';
 			header('Location: '.$newURL);
@@ -30,9 +30,21 @@ class Survey extends CI_Controller {
             $suggestions = $this->input->post('suggestions');
             $future 	 = $this->input->post('future');
             $rate 		 = $this->input->post('rate');
-            //$this->session->userdata('Id')
-            /*$arrayInsert = array('Suggestions'   => $suggestions);
-            $this->M_encuesta->insertarDatos($arrayInsert, 'survey');*/
+            $arrayInsert = array('Sesion'   => $valor[0],
+        						 'Topic'   => $valor[1],
+        						 'Topic' => $suggestions,
+        						 'Future' => $future,
+        						 'Useful' => $valor[2],
+        						 'rate' => $rate,
+        						 'hotel' => $valor[3],
+        						 'transport' => $valor[4],
+        						 'restaurant' => $valor[5],
+        						 'food' => $valor[6],
+        						 'register' => $valor[7],
+        						 'schedule' => $valor[8],
+        						 'id_persona' => $this->session->userdata('Id'));
+
+            $this->M_encuesta->insertarDatos($arrayInsert, 'answers');
             $data['error'] = EXIT_SUCCESS;
         } catch (Exception $e) {
             $data['msj'] = $e->getMessage();

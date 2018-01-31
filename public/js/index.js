@@ -55,10 +55,10 @@ function enviarEncuesta(){
 		try{
         	data = JSON.parse(data);
         	if(data.error == 0){
-				/*addLoading('idEncuesta');
+				addLoading('idEncuesta');
 					setTimeout(function(){ 
 						stopLoading('idEncuesta')
-					}, 4000);*/
+					}, 4000);
         	}else {
         		return;
         	}
