@@ -15,6 +15,10 @@ class Survey extends CI_Controller {
 
 	public function index()
 	{
+		if(_getSesion('correo') == null) {
+			$newURL = 'Inicio';
+			header('Location: '.$newURL);
+		}
 		$this->load->view('v_survey');
 	}
 
