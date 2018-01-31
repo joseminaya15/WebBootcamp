@@ -1,0 +1,246 @@
+body{
+	font-family: 'RobotoRegular';
+	margin: 0;
+	padding: 0;
+}
+p{
+    font-family: 'RobotoRegular';
+}
+.fondo-imagen, .fondo-imagen:BEFORE {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    right: 0;
+}
+.fondo-imagen{
+	background: url(../img/fondo-home.jpg) no-repeat center center;
+	background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+}
+.fondo-imagen:BEFORE {
+    content: '';
+    left: 0;
+    background-color: #000;
+    opacity: .65;
+    z-index: 1;
+}
+.header-body{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 300px;
+	background-color: #00305D;
+}
+.section{
+	padding: 20px;
+}
+.col-xs-12{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.mdl-container{
+	max-width: 1150px;
+	width: 100%;
+	margin: auto;
+	margin-top: 50px;
+	position: relative;
+}
+.logo-home img{
+	max-width: 280px;
+}
+.title{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 'RobotoBold';
+    max-width: 325px;
+    line-height: 36px;
+}
+.subtitle{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.text-final{
+	font-family: 'RobotoBold';
+	font-size: 18px;
+    margin: 12px 0;
+    line-height: 20px;
+}
+.survey{
+	position: absolute;
+    left: 30px;
+    top: 0;
+    background-color: #01A982;
+    color: #FFFFFF;
+}
+.survey p{
+	line-height: 1;
+	margin: 0;
+	padding: 10px 20px;
+}
+.subtitle-encuesta{
+	margin: 10px 0;
+}
+.subtitle-encuesta h2{
+    font-size: 16px;
+    padding: 3px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #f3f0f0;
+    color: #757575;
+    text-align: left;
+    line-height: 20px;
+}
+.title-question{
+	margin: 10px 0;
+}
+.mdl-check-button{
+	padding: 5px 0;
+    display: inline-block;
+    max-width: 268px;
+    width: 100%;
+}
+.border-0 .mdl-check-button .mdl-radio__outer-circle{
+	border-radius: 0;
+}
+/*CARD-ENCUESTA*/
+.mdl-card-encuesta{
+	width: 100%;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 30px;
+}
+.mdl-card-encuesta .mdl-card__actions button{
+	background-color: #01A982;
+    color: #FFFFFF;
+}
+/*MDL-INPUT*/
+.mdl-input{
+    display: flex;
+    align-items: center;
+    height: 65px
+}
+.mdl-input .mdl-icon{
+	width: 100%;
+	max-width: 40px;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, 
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label, 
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+	color: #01A982;
+}
+.mdl-textfield__label:after{
+    bottom: 15px;
+	background-color: #01A982;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__box-outline,
+.mdl-radio.is-checked .mdl-radio__outer-circle{
+	border: 2px solid #01A982;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__tick-outline,
+.mdl-checkbox__ripple-container .mdl-ripple,
+.mdl-radio__inner-circle,
+.mdl-radio__ripple-container .mdl-ripple{
+	background: #01A982;
+}
+.mdl-textfield{
+	width: 100%;
+}
+.mdl-textfield__input{
+	font-family: 'RobotoRegular';
+}
+.mdl-textfield.is-invalid .mdl-textfield__label{
+	color: #d50000;
+}
+.mdl-radio__label,
+.mdl-checkbox__label,
+.mdl-textfield__label{
+	font-family: 'RobotoLight';
+	color: #A6A6A6;
+}
+/*MDL-SELECT*/
+.mdl-select .bootstrap-select{
+	width: 100% !important;
+}
+.mdl-select .bootstrap-select .btn-default{
+	border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    border-radius: 0;
+}
+.mdl-select .bootstrap-select .dropdown-toggle:hover,
+.mdl-select .bootstrap-select .dropdown-toggle:focus{
+	outline: none !important;
+	background-color: transparent;
+}
+.mdl-select .btn.active, 
+.mdl-select .btn:active,
+.mdl-select .btn-group.open .dropdown-toggle{
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+.mdl-select .btn-default.active, 
+.mdl-select .btn-default:active, 
+.mdl-select .open>.dropdown-toggle.btn-default,
+.mdl-select .btn-default.active.focus, 
+.mdl-select .btn-default.active:focus, 
+.mdl-select .btn-default.active:hover, 
+.mdl-select .btn-default:active.focus, 
+.mdl-select .btn-default:active:focus, 
+.mdl-select .btn-default:active:hover, 
+.mdl-select .open>.dropdown-toggle.btn-default.focus, 
+.mdl-select .open>.dropdown-toggle.btn-default:focus, 
+.mdl-select .open>.dropdown-toggle.btn-default:hover{
+	background-color: transparent;
+}
+.mdl-select .dropdown-menu>li>a{
+	-webkit-transition: background-color .2s linear, color .2s linear;
+	-moz-transition: background-color .2s linear, color .2s linear;
+	-ms-transition: background-color .2s linear, color .2s linear;
+	-o-transition: background-color .2s linear, color .2s linear;
+	transition: background-color .2s linear, color .2s linear;
+}
+.mdl-select .dropdown-menu>li>a:focus, 
+.mdl-select .dropdown-menu>li>a:hover{
+	background-color: #00305D;
+	color: #FFFFFF;
+	outline: none;
+}
+/*NUMBERS*/
+.mdl-number{
+	display: inline-block;
+    margin: 10px;
+}
+.mdl-number span{
+	font-size: 18px;
+}
+.button-number{
+	transition: background-color .1s linear;
+}
+.button-select{
+	background-color: #01A982;
+	color: #FFFFFF;
+}
+.opacity-card{
+   	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .7;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 5;
+	display: flex;
+    align-items: center;
+}
+.opacity-card .mdl-spinner{
+	margin: auto;
+}
