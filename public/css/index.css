@@ -344,6 +344,13 @@ footer p{
 }
 .mdl-card-login .mdl-card__actions button {
     width: 100%;
+    background-color: #01a982;
+    color: #FFFFFF;
+    font-family: 'RobotoRegular';
+}
+.mdl-card__menu{
+    top: 5px;
+    right: 5px;
 }
 .mdl-input {
     display: flex;

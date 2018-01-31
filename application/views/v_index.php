@@ -420,15 +420,15 @@
         </div>
     </footer>
     <!--MODAL-->
-    <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
             <div class="modal-content">
                 <div class="mdl-card mdl-card-login">
                     <div class="mdl-card__supporting-text">
                         <img class="logo" src="<?php echo RUTA_IMG;?>logo/logo-home.png">
                         <div class="event">
-                            <h2>HPE Latin America Hybrid IT Bootcamp</h2>
-                            <p>January 30th to February 1st, 2018</p>
+                            <h2>Your feedback is important!</h2>
+                            <p>Please share with us your experience at the 2018 Bootcamp.</p>
                         </div>
                         <div class="mdl-input">
                             <div class="mdl-icon">
@@ -442,8 +442,11 @@
                         </div>
                     </div>
                     <div class="mdl-card__actions p-0">
-                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="ingresar()">Login</button>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="ingresar()">Go to Survey</button>
                     </div> 
+                    <div class="mdl-card__menu">
+                        <button class="mdl-button mdl-js-button mdl-button--icon" data-dismiss="modal"><i class="mdi mdi-close"></i></button>
+                    </div>
                 </div>
             </div>
         </div>
