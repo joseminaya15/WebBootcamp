@@ -59,10 +59,7 @@ function enviarEncuesta(){
 		try{
         	data = JSON.parse(data);
         	if(data.error == 0){
-				addLoading('idEncuesta');
-					setTimeout(function(){ 
-						stopLoading('idEncuesta')
-					}, 4000);
+				location.href = 'Inicio';
         	}else {
         		return;
         	}
@@ -70,9 +67,6 @@ function enviarEncuesta(){
         msj('error',err.message);
       }
 	});
-	/*$($(':checkbox').prop('checked', true)).each(function() {
-	  console.log($(this));
-	});*/
 
 }
 
