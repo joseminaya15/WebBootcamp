@@ -77,3 +77,45 @@ function numberRange(id){
 	$('.button-number').removeClass('button-select');
 	buttonSelect.addClass('button-select');
 }
+
+function ingresar() {
+	var correo = $('#correo').val();
+	if(correo == null) {
+		$('#correo').parent().addClass('is-invalid');
+		return;
+	}
+	if (!validateEmail(correo)) {
+		$('#correo').parent().addClass('is-invalid');
+		return;
+	}
+	$.ajax({
+		data  : { correo : correo},
+		url   : 'Inicio/ingresar',
+		type  : 'POST'
+	}).done(function(data){
+		try{
+        	data = JSON.parse(data);
+        	if(data.error == 0){
+        		location.href = 'Survey';
+        		$('#correo').val("");
+        	}else {
+				$('#correo').parent().addClass('is-invalid');
+        		return;
+        	}
+      } catch (err){
+        msj('error',err.message);
+      }
+	});
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
+function verificarDatos(e) {
+	if(e.keyCode === 13){
+		e.preventDefault();
+		ingresar();
+    }
+}
