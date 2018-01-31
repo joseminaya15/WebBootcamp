@@ -311,7 +311,45 @@ footer p{
     padding: 10px 0;
     line-height: 16px;
     font-size: 11px;
-}/*TABLE*/
+}
+/*LOGIN*/
+.logo {
+    max-width: 200px;
+}
+.mdl-card-login{
+    padding: 10px;
+}
+.mdl-card-login .mdl-card__supporting-text{
+    width: 100%;
+    padding: 0;
+}
+.mdl-card-login .mdl-card__supporting-text .event h2 {
+    font-size: 18px;
+    font-family: RobotoBold;
+    line-height: 20px;
+    margin: 20px 0 5px;
+}
+.mdl-card-login .mdl-card__supporting-text .event p {
+    margin: 0;
+    font-family: RobotoRegular;
+}
+.mdl-card-login .mdl-card__actions button {
+    width: 100%;
+}
+.mdl-input {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.mdl-input .mdl-icon {
+    width: 30px;
+    margin-right: 5px;
+}
+.modal-sm{
+    max-width: 300px;
+    margin: 30px auto;
+}
+/*TABLE*/
 table{
 	text-align: left;
 }

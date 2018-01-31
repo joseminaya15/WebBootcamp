@@ -18,7 +18,7 @@
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
     <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
 	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
-	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.min.css?v=<?php echo time();?>">
+	<link rel="stylesheet"    href="<?php echo RUTA_CSS?>index.css?v=<?php echo time();?>">
 </head>
 <body>
     <section id="principal">
@@ -419,10 +419,44 @@
             <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
         </div>
     </footer>
+    <!--MODAL-->
+    <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-sm text-center">
+            <div class="modal-content">
+                <div class="mdl-card mdl-card-login">
+                    <div class="mdl-card__supporting-text">
+                        <img class="logo" src="<?php echo RUTA_IMG;?>logo/logo-home.png">
+                        <div class="event">
+                            <h2>HPE Latin America Hybrid IT Bootcamp</h2>
+                            <p>January 30th to February 1st, 2018</p>
+                        </div>
+                        <div class="mdl-input">
+                            <div class="mdl-icon">
+                                <i class="mdi mdi-email"></i>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input class="mdl-textfield__input" type="text" id="correo" maxlength="50" onkeyup="verificarDatos(event);">
+                                <label class="mdl-textfield__label" for="correo">Email</label>
+                                <span class="mdl-textfield__error">Invalid email</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-card__actions p-0">
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Login</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>index.js?v=<?php echo time();?>"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $("#ModalLogin").modal('show');
+        });
+    </script>
 </body>
 </html>
