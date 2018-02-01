@@ -456,5 +456,17 @@
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
     <script src="<?php echo RUTA_JS?>index.js?v=<?php echo time();?>"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            let openModal = sessionStorage.getItem('OPEN_MODAL');
+            if(openModal && openModal == '1') {
+                $("#ModalLogin").modal('hide');
+                sessionStorage.removeItem('OPEN_MODAL');
+            }
+            else{
+                $("#ModalLogin").modal('show');
+            }
+        });
+    </script>
 </body>
 </html>
