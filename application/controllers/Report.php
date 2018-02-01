@@ -20,6 +20,7 @@ class Report extends CI_Controller {
 		$cont = 1;
 		foreach ($datos as $key) {
 			$html .= '<tr class="tr-cursor-pointer tr-ver-info-solicitud" data-idSolicitud="'.$cont.'">
+						<td class="text-center">'.$key->Email.'</td>
                         <td class="text-center">'.$key->Sesion.'</td>
                         <td class="text-center">'.$key->Topic.'</td>
                         <td class="text-center">'.$key->Future.'</td>

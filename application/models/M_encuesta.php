@@ -33,8 +33,11 @@ class M_encuesta extends  CI_Model{
     }
 
     function getEncuestados() {
-        $sql = "SELECT a.*
-                  FROM answers a
+        $sql = "SELECT a.*,
+                       p.Email
+                  FROM answers a,
+                       persons p
+                WHERE p.Id = a.id_persona
                 ORDER BY a.id_persona";
         $result = $this->db->query($sql);
         return $result->result();

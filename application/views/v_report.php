@@ -43,6 +43,7 @@
                         <table id="example" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
                             <thead>
                                 <tr class="tr-header-reporte">
+                                    <th class="text-center">Email</th>
                                     <th class="text-center">Session More Relevant</th>
                                     <th class="text-center">Topic focus more</th>
                                     <th class="text-center">Interested to be in the Agenda</th>
