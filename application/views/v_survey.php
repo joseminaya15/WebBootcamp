@@ -566,7 +566,7 @@
                             </label>
                         </div>
                         <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-41">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-4">
                                 <input type="radio" id="schedule-4" class="mdl-radio__button" name="options8" value="Excellent">
                                 <span class="mdl-radio__label">Excellent</span>
                             </label>
