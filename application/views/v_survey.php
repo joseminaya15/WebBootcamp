@@ -33,7 +33,7 @@
                 <p class="subtitle">Your feedback is very important to us, please fill out this survey so we can improve future events.</p>
                 <div id="idEncuesta" class="mdl-card mdl-card-encuesta">
                     <div class="preguntas" id="preg1">
-                        <p class="title-question m-t-0"><strong>1.</strong> Which session was more relevant for you?</p>
+                        <p class="title-question m-t-0"><strong>1.</strong> Which session was more relevant for you? <small>( No more than 5 choices )</small></p>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-1">
                                 <input type="checkbox" id="session-1" class="mdl-checkbox__input" value="Welcome & Strategy">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="preguntas" id="preg2">
-                        <p class="title-question"><strong>2.</strong> Which topic do you think we should focus more?</p>
+                        <p class="title-question"><strong>2.</strong> Which topic do you think we should focus more? <small>( No more than 5 choices )</small></p>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-1">
                                 <input type="checkbox" id="topic-1" class="mdl-checkbox__input" value="Welcome & Strategy">
@@ -566,7 +566,7 @@
                             </label>
                         </div>
                         <div class="mdl-check-button">
-                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-41">
+                            <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="schedule-4">
                                 <input type="radio" id="schedule-4" class="mdl-radio__button" name="options8" value="Excellent">
                                 <span class="mdl-radio__label">Excellent</span>
                             </label>
