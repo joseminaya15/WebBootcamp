@@ -30,16 +30,56 @@ $(window).load(function() {
 function enviarEncuesta(){
 	var valor = [];
 	var boton = [];
-	$("input:checked").each(function() {
+	var valor1 = [];
+	var valor2 = [];
+	var valor3 = [];
+	var valor4 = [];
+	/*$("input:checked").each(function() {
 	  valor.push($(this).val());
+	});*/
+	$('#preg1').find("input:checked").each(function() {
+	  valor1.push($(this).val());
+	});
+	$('#preg2').find("input:checked").each(function() {
+	  valor2.push($(this).val());
+	});
+	$('#preg3').find("input:checked").each(function() {
+	  valor3.push($(this).val());
+	});
+	$('#preg4').find("input:checked").each(function() {
+	  valor4.push($(this).val());
 	});
 	var suggestions = $('#suggestions').val();
 	var future 		= $('#future').val();
 	var rate 		= $(".button-select").find("span").text();
-	// if(valor.length < 9){ 
-	// 	msj('error', 'Complete all the questions'); 
-	// 	return;
-	// }
+	if(valor1.length == 0) {
+		msj('error', 'Complete all the questions'); 
+		return;
+	}
+	if(valor1.length > 5) {
+		msj('error', 'Up to five choices'); 
+		return;
+	}
+	if(valor2.length == 0) {
+		msj('error', 'Complete all the questions'); 
+		return;
+	}
+	if(valor2.length > 5) {
+		msj('error', 'Up to five choices'); 
+		return;
+	}
+	if(valor3.length == 0) {
+		msj('error', 'Complete all the questions'); 
+		return;
+	}
+	if(valor3.length > 5) {
+		msj('error', 'Up to five choices'); 
+		return;
+	}
+	if(valor4.length == 0) {
+		msj('error', 'Complete all the questions'); 
+		return;
+	}
 	if(suggestions == null) {
 		msj('error', 'Complete all the questions');
 		return;
@@ -53,7 +93,10 @@ function enviarEncuesta(){
 		return;
 	}
 	$.ajax({
-		data  : { valor 	  : valor,
+		data  : { valor1 	  : valor1.toString(),
+				  valor2 	  : valor2.toString(),
+				  valor3 	  : valor3,
+				  valor4 	  : valor4,
 				  suggestions : suggestions,
 				  future 	  : future,
 				  rate 		  : rate},

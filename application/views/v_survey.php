@@ -32,236 +32,236 @@
                 <h2 class="title">HPE Latin America Hybrid IT Bootcamp</h2>
                 <p class="subtitle">Your feedback is very important to us, please fill out this survey so we can improve future events.</p>
                 <div id="idEncuesta" class="mdl-card mdl-card-encuesta">
-                    <div class="preguntas">
+                    <div class="preguntas" id="preg1">
                         <p class="title-question m-t-0"><strong>1.</strong> Which session was more relevant for you?</p>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-1">
-                                <input type="checkbox" id="session-1" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-1" class="mdl-checkbox__input" value="Welcome & Strategy">
                                 <span class="mdl-checkbox__label">Welcome & Strategy</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-2">
-                                <input type="checkbox" id="session-2" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-2" class="mdl-checkbox__input" value="Synergy">
                                 <span class="mdl-checkbox__label">Synergy</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-3">
-                                <input type="checkbox" id="session-3" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-3" class="mdl-checkbox__input" value="HPC">
                                 <span class="mdl-checkbox__label">HPC</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-4">
-                                <input type="checkbox" id="session-4" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-4" class="mdl-checkbox__input" value="Nimble Strategy">
                                 <span class="mdl-checkbox__label">Nimble Strategy</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-5">
-                                <input type="checkbox" id="session-5" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-5" class="mdl-checkbox__input" value="VMware">
                                 <span class="mdl-checkbox__label">VMware</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-6">
-                                <input type="checkbox" id="session-6" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-6" class="mdl-checkbox__input" value="Storage Portfolio Positioning">
                                 <span class="mdl-checkbox__label">Storage Portfolio Positioning</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-7">
-                                <input type="checkbox" id="session-7" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-7" class="mdl-checkbox__input" value="3PAR">
                                 <span class="mdl-checkbox__label">3PAR</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-8">
-                                <input type="checkbox" id="session-8" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-8" class="mdl-checkbox__input" value="Veeam">
                                 <span class="mdl-checkbox__label">Veeam</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-9">
-                                <input type="checkbox" id="session-9" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-9" class="mdl-checkbox__input" value="DAPR">
                                 <span class="mdl-checkbox__label">DAPR</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-10">
-                                <input type="checkbox" id="session-10" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-10" class="mdl-checkbox__input" value="Storage Big Data">
                                 <span class="mdl-checkbox__label">Storage Big Data</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-11">
-                                <input type="checkbox" id="session-11" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-11" class="mdl-checkbox__input" value="Brocade">
                                 <span class="mdl-checkbox__label">Brocade</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-12">
-                                <input type="checkbox" id="session-12" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-12" class="mdl-checkbox__input" value="DCN/VMware NSX">
                                 <span class="mdl-checkbox__label">DCN/VMware NSX</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-13">
-                                <input type="checkbox" id="session-13" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-13" class="mdl-checkbox__input" value="ProLiant Gen10">
                                 <span class="mdl-checkbox__label">ProLiant Gen10</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-14">
-                                <input type="checkbox" id="session-14" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-14" class="mdl-checkbox__input" value="MCS">
                                 <span class="mdl-checkbox__label">MCS</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-15">
-                                <input type="checkbox" id="session-15" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-15" class="mdl-checkbox__input" value="Apolo 2000">
                                 <span class="mdl-checkbox__label">Apolo 2000</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-16">
-                                <input type="checkbox" id="session-16" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-16" class="mdl-checkbox__input" value="Superdome Flex HANA">
                                 <span class="mdl-checkbox__label">Superdome Flex HANA</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-17">
-                                <input type="checkbox" id="session-17" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-17" class="mdl-checkbox__input" value="RedHat">
                                 <span class="mdl-checkbox__label">RedHat</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-18">
-                                <input type="checkbox" id="session-18" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-18" class="mdl-checkbox__input" value="PointNext">
                                 <span class="mdl-checkbox__label">PointNext</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="session-19">
-                                <input type="checkbox" id="session-19" class="mdl-checkbox__input">
+                                <input type="checkbox" id="session-19" class="mdl-checkbox__input" value="AMD">
                                 <span class="mdl-checkbox__label">AMD</span>
                             </label>
                         </div>
                     </div>
-                    <div class="preguntas">
+                    <div class="preguntas" id="preg2">
                         <p class="title-question"><strong>2.</strong> Which topic do you think we should focus more?</p>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-1">
-                                <input type="checkbox" id="topic-1" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-1" class="mdl-checkbox__input" value="Welcome & Strategy">
                                 <span class="mdl-checkbox__label">Welcome & Strategy</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-2">
-                                <input type="checkbox" id="topic-2" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-2" class="mdl-checkbox__input" value="Synergy">
                                 <span class="mdl-checkbox__label">Synergy</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-3">
-                                <input type="checkbox" id="topic-3" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-3" class="mdl-checkbox__input" value="HPC">
                                 <span class="mdl-checkbox__label">HPC</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-4">
-                                <input type="checkbox" id="topic-4" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-4" class="mdl-checkbox__input" value="Nimble Strategy">
                                 <span class="mdl-checkbox__label">Nimble Strategy</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-5">
-                                <input type="checkbox" id="topic-5" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-5" class="mdl-checkbox__input" value="VMware">
                                 <span class="mdl-checkbox__label">VMware</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-6">
-                                <input type="checkbox" id="topic-6" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-6" class="mdl-checkbox__input" value="Storage Portfolio Positioning">
                                 <span class="mdl-checkbox__label">Storage Portfolio Positioning</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-7">
-                                <input type="checkbox" id="topic-7" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-7" class="mdl-checkbox__input" value="3PAR">
                                 <span class="mdl-checkbox__label">3PAR</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-8">
-                                <input type="checkbox" id="topic-8" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-8" class="mdl-checkbox__input" value="Veeam">
                                 <span class="mdl-checkbox__label">Veeam</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-9">
-                                <input type="checkbox" id="topic-9" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-9" class="mdl-checkbox__input" value="DAPR">
                                 <span class="mdl-checkbox__label">DAPR</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-10">
-                                <input type="checkbox" id="topic-10" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-10" class="mdl-checkbox__input" value="Storage Big Data">
                                 <span class="mdl-checkbox__label">Storage Big Data</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-11">
-                                <input type="checkbox" id="topic-11" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-11" class="mdl-checkbox__input" value="Brocade">
                                 <span class="mdl-checkbox__label">Brocade</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-12">
-                                <input type="checkbox" id="topic-12" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-12" class="mdl-checkbox__input" value="DCN/VMware NSX">
                                 <span class="mdl-checkbox__label">DCN/VMware NSX</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-13">
-                                <input type="checkbox" id="topic-13" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-13" class="mdl-checkbox__input" value="ProLiant Gen10">
                                 <span class="mdl-checkbox__label">ProLiant Gen10</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-14">
-                                <input type="checkbox" id="topic-14" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-14" class="mdl-checkbox__input" value="MCS">
                                 <span class="mdl-checkbox__label">MCS</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-15">
-                                <input type="checkbox" id="topic-15" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-15" class="mdl-checkbox__input" value="Apolo 2000">
                                 <span class="mdl-checkbox__label">Apolo 2000</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-16">
-                                <input type="checkbox" id="topic-16" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-16" class="mdl-checkbox__input" value="Superdome Flex HANA">
                                 <span class="mdl-checkbox__label">Superdome Flex HANA</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-17">
-                                <input type="checkbox" id="topic-17" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-17" class="mdl-checkbox__input" value="RedHat">
                                 <span class="mdl-checkbox__label">RedHat</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-18">
-                                <input type="checkbox" id="topic-18" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-18" class="mdl-checkbox__input" value="PointNext">
                                 <span class="mdl-checkbox__label">PointNext</span>
                             </label>
                         </div>
                         <div class="mdl-check-button">
                             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="topic-19">
-                                <input type="checkbox" id="topic-19" class="mdl-checkbox__input">
+                                <input type="checkbox" id="topic-19" class="mdl-checkbox__input" value="AMD">
                                 <span class="mdl-checkbox__label">AMD</span>
                             </label>
                         </div>
@@ -288,7 +288,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="preguntas">
+                    <div class="preguntas" id="preg3">
                         <p class="title-question"><strong>5.</strong> If you participated in any of the LABs provided, which one was more useful based on your area?</p>
                         <div class="mdl-check-button">
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="lab-1">
@@ -380,7 +380,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="preguntas border-0">
+                    <div class="preguntas border-0" id="preg4">
                         <p class="title-question"><strong>7.</strong> General comments on the organization of the event.</p>
                         <div class="subtitle-encuesta col-xs-12 p-0">
                             <h2 class="subtitle">Hotel</h2>   

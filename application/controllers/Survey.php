@@ -26,23 +26,26 @@ class Survey extends CI_Controller {
 		$data['error'] = EXIT_ERROR;
         $data['msj']   = null;
         try {
-            $valor 		 = $this->input->post('valor');
+            $valor1 		 = $this->input->post('valor1');
+            $valor2          = $this->input->post('valor2');
+            $valor3          = $this->input->post('valor3');
+            $valor4          = $this->input->post('valor4');
             $suggestions = $this->input->post('suggestions');
             $future 	 = $this->input->post('future');
             $rate 		 = $this->input->post('rate');
-            $arrayInsert = array('Sesion'   => $valor[0],
-        						 'Topic'   => $valor[1],
+            $arrayInsert = array('Sesion'   => $valor1,
+        						 'Topic'   => $valor1,
         						 'Future' => $suggestions,
         						 'Suggestions' => $future,
-        						 'Useful' => $valor[2],
+        						 'Useful' => $valor3[0],
         						 'rate' => $rate,
-        						 'hotel' => $valor[3],
-        						 'transport' => $valor[4],
-        						 'restaurant' => $valor[5],
-        						 'food' => $valor[6],
-        						 'register' => $valor[7],
-        						 'schedule' => $valor[8],
-                                 'entertainment' => $valor[9],
+        						 'hotel' => $valor4[0],
+        						 'transport' => $valor4[1],
+        						 'restaurant' => $valor4[2],
+        						 'food' => $valor4[3],
+        						 'register' => $valor4[4],
+        						 'schedule' => $valor4[5],
+                                 'entertainment' => $valor4[6],
         						 'id_persona' => $this->session->userdata('Id'));
 
             $this->M_encuesta->insertarDatos($arrayInsert, 'answers');
