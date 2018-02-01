@@ -80,6 +80,10 @@ function enviarEncuesta(){
 		msj('error', 'Complete all the questions'); 
 		return;
 	}
+	if(valor4.length < 7) {
+		msj('error', 'Complete all the questions'); 
+		return;
+	}
 	if(suggestions == null) {
 		msj('error', 'Complete all the questions');
 		return;
