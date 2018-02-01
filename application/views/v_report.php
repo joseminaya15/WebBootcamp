@@ -19,10 +19,15 @@
         <link rel="stylesheet"    href="<?php echo RUTA_PLUGINS?>toaster/toastr.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>font-awesome.min.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>material-icons.css?v=<?php echo time();?>">
-        <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>engagement.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_FONTS?>roboto.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_CSS?>m-p.min.css?v=<?php echo time();?>">
         <link rel="stylesheet"    href="<?php echo RUTA_CSS?>survey.css?v=<?php echo time();?>">
+        <link rel="stylesheet"    href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+        <link rel="stylesheet"    href="https://cdn.datatables.net/autofill/2.2.2/css/autoFill.dataTables.min.css">
+        <link rel="stylesheet"    href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css">
+        <link rel="stylesheet"    href="https://cdn.datatables.net/fixedcolumns/3.2.4/css/fixedColumns.dataTables.min.css">
+        <link rel="stylesheet"    href="https://cdn.datatables.net/fixedheader/3.1.3/css/fixedHeader.dataTables.min.css">
+        <link rel="stylesheet"    href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css">
     </head>
     <body>
         <div class="fondo-imagen"></div>
@@ -33,61 +38,30 @@
                 </div>
                 <h2 class="title">HPE Latin America Hybrid IT Bootcamp</h2>
                 <p class="subtitle">Your feedback is very important to us, please fill out this survey so we can improve future events.</p>
-                <div id="idEncuesta" class="mdl-card mdl-card-encuesta">
-                    <table id="table" data-search="true" data-show-refresh="true" data-pagination="true">
-                        <thead>
-                            <tr>
-                                <th data-field="name">Name</th>
-                                <th data-field="stargazers_count">Stars</th>
-                                <th data-field="forks_count">Forks</th>
-                                <th data-field="description">Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr id="tr-id-1" class="tr-class-1">
-                                <td id="td-id-1" class="td-class-1">
-                                    <a href="https://github.com/wenzhixin/bootstrap-table">bootstrap-table</a>
-                                </td>
-                                <td>526</td>
-                                <td>122</td>
-                                <td>An extended Bootstrap table with radio, checkbox, sort, pagination, and other added features. (supports twitter bootstrap v2 and v3) 
-                                </td>
-                            </tr>
-                            <tr id="tr-id-2" class="tr-class-2">
-                                <td id="td-id-2" class="td-class-2">
-                                    <a href="https://github.com/wenzhixin/multiple-select">multiple-select</a>
-                                </td>
-                                <td>288</td>
-                                <td>150</td>
-                                <td>A jQuery plugin to select multiple elements with checkboxes :)
-                                </td>
-                            </tr>
-                            <tr id="tr-id-3" class="tr-class-3">
-                                <td id="td-id-3" class="td-class-3">
-                                    <a href="https://github.com/wenzhixin/bootstrap-show-password">bootstrap-show-password</a>
-                                </td>
-                                <td>32</td>
-                                <td>11</td>
-                                <td>Show/hide password plugin for twitter bootstrap.
-                                </td>
-                            </tr>
-                            <tr id="tr-id-4" class="tr-class-4">
-                                <td id="td-id-4" class="td-class-4">
-                                    <a href="https://github.com/wenzhixin/blog">blog</a>
-                                </td>
-                                <td>13</td>
-                                <td>4</td>
-                                <td>my blog</td>
-                            </tr>
-                            <tr id="tr-id-5" class="tr-class-5">
-                                <td id="td-id-5" class="td-class-5">
-                                    <a href="https://github.com/wenzhixin/scutech-redmine">scutech-redmine</a>
-                                <td>6</td>
-                                <td>3</td>
-                                <td>Redmine notification tools for chrome extension.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="mdl-card mdl-card-table">
+                    <div class="table-responsive">
+                        <table id="example" class="display nowrap table table-bordered table-hover dt-responsive" cellspacing="0" width="100%">
+                            <thead>
+                                <tr class="tr-header-reporte">
+                                    <th class="text-center">Session More Relevant</th>
+                                    <th class="text-center">Topic focus more</th>
+                                    <th class="text-center">Interested to be in the Agenda</th>
+                                    <th class="text-center">Suggestions for a future event</th>
+                                    <th class="text-center">Useful based on your area</th>
+                                    <th class="text-center">Rate this event overall</th>
+                                    <th class="text-center">Comments for hotel</th>
+                                    <th class="text-center">Comments for Transport</th>
+                                    <th class="text-center">Comments for Restaurant</th>
+                                    <th class="text-center">Comments for Food</th>
+                                    <th class="text-center">Comments for Register</th>
+                                    <th class="text-center">Comments for Schedule</th>
+                                </tr>
+                            </thead>
+                          <tbody>
+                              <?php echo $html ?>  
+                          </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
@@ -100,18 +74,29 @@
         <script src="<?php echo RUTA_PLUGINS?>bootstrap-table/dist/locale/bootstrap-table-es-ES.min.js?v=<?php echo time();?>"></script>
         <script src="<?php echo RUTA_PLUGINS?>mdl/material.min.js?v=<?php echo time();?>"></script>
         <script src="<?php echo RUTA_PLUGINS?>toaster/toastr.js?v=<?php echo time();?>"></script>
-        <script src="<?php echo RUTA_JS?>jsmenu.js?v=<?php echo time();?>"></script>
-        <script src="<?php echo RUTA_JS?>Utils.js?v=<?php echo time();?>"></script>
-        <script src="<?php echo RUTA_JS?>index.js?v=<?php echo time();?>"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
+        <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.flash.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+        <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+        <script type="text/javascript" src="//cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
         <script type="text/javascript">
-            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-                $('select').selectpicker('mobile');
-            } else {
-                $('select').selectpicker();
-            }
-            $('#table').bootstrapTable({
-
-            });
+            $(document).ready(function() {
+              $('#example').DataTable( {
+                  responsive: true,
+                  dom: 'Bfrtip',
+                  buttons: [
+                    'excel', 'print'
+                  ]
+              });
+              $('.buttons-excel').empty();
+              $('.buttons-print').empty();
+              $('.buttons-excel').append('<i class="fa fa-file-excel-o"></i>');
+              $('.buttons-print').append('<i class="fa fa-print"></i>');
+          });
         </script>
     </body>
 </html>

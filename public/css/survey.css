@@ -244,3 +244,6 @@ p{
 .opacity-card .mdl-spinner{
 	margin: auto;
 }
+.mdl-card-table{
+	width: 100%;
+}
