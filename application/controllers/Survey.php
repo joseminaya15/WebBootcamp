@@ -32,8 +32,8 @@ class Survey extends CI_Controller {
             $rate 		 = $this->input->post('rate');
             $arrayInsert = array('Sesion'   => $valor[0],
         						 'Topic'   => $valor[1],
-        						 'Topic' => $suggestions,
-        						 'Future' => $future,
+        						 'Future' => $suggestions,
+        						 'Suggestions' => $future,
         						 'Useful' => $valor[2],
         						 'rate' => $rate,
         						 'hotel' => $valor[3],

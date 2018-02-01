@@ -32,4 +32,12 @@ class M_encuesta extends  CI_Model{
         return $result->result();
     }
 
+    function getEncuestados() {
+        $sql = "SELECT a.*
+                  FROM answers a
+                ORDER BY a.id_persona";
+        $result = $this->db->query($sql);
+        return $result->result();
+    }
+
 }
