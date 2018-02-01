@@ -113,7 +113,6 @@ function enviarEncuesta(){
         		sessionStorage.setItem('OPEN_MODAL', '1');
 				location.href = 'Inicio';
         	}else {
-        		msj('error', 'Email');
         		return;
         	}
       } catch (err){
@@ -151,6 +150,7 @@ function ingresar() {
         		$('#correo').val("");
         	}else {
 				$('#correo').parent().addClass('is-invalid');
+				$('.mdl-textfield__error').text('survey sent successfully');
         		return;
         	}
       } catch (err){
