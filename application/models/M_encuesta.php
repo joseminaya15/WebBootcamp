@@ -43,4 +43,14 @@ class M_encuesta extends  CI_Model{
         return $result->result();
     }
 
+    function getDatosCorreos($correo) {
+        $sql = "SELECT COUNT(1) AS contador
+                  FROM answers a,
+                       persons p
+                WHERE p.Id = a.id_persona
+                  AND p.Email LIKE '".$correo."'";
+        $result = $this->db->query($sql);
+        return $result->result();
+    }
+
 }
