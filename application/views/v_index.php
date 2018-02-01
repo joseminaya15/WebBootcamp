@@ -419,8 +419,6 @@
             <p>&copy;Copyright 2018 Hewlett Packard Enterprice Development LP</p>
         </div>
     </footer>
-
-    <?php if($encuesta == 0) { ?>
     <!--MODAL-->
     <div class="modal fade" id="ModalLogin" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
@@ -453,7 +451,6 @@
             </div>
         </div>
     </div>
-    <?php } ?>
 	<script src="<?php echo RUTA_JS?>jquery-3.2.1.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_JS?>jquery-1.11.2.min.js?v=<?php echo time();?>"></script>
 	<script src="<?php echo RUTA_PLUGINS?>bootstrap/bootstrap.min.js?v=<?php echo time();?>"></script>

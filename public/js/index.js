@@ -63,6 +63,7 @@ function enviarEncuesta(){
 		try{
         	data = JSON.parse(data);
         	if(data.error == 0){
+        		sessionStorage.setItem('OPEN_MODAL', '1');
 				location.href = 'Inicio';
         	}else {
         		return;
