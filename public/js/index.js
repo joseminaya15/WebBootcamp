@@ -36,10 +36,10 @@ function enviarEncuesta(){
 	var suggestions = $('#suggestions').val();
 	var future 		= $('#future').val();
 	var rate 		= $(".button-select").find("span").text();
-	if(valor.length < 9){ 
-		msj('error', 'Complete all the questions'); 
-		return;
-	}
+	// if(valor.length < 9){ 
+	// 	msj('error', 'Complete all the questions'); 
+	// 	return;
+	// }
 	if(suggestions == null) {
 		msj('error', 'Complete all the questions');
 		return;

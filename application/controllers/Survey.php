@@ -42,6 +42,7 @@ class Survey extends CI_Controller {
         						 'food' => $valor[6],
         						 'register' => $valor[7],
         						 'schedule' => $valor[8],
+                                 'entertainment' => $valor[9],
         						 'id_persona' => $this->session->userdata('Id'));
 
             $this->M_encuesta->insertarDatos($arrayInsert, 'answers');
