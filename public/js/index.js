@@ -37,15 +37,19 @@ function enviarEncuesta(){
 	var future 		= $('#future').val();
 	var rate 		= $(".button-select").find("span").text();
 	if(valor.length < 9){ 
+		msj('error', 'Complete all the questions'); 
 		return;
 	}
 	if(suggestions == null) {
+		msj('error', 'Complete all the questions');
 		return;
 	}
 	if(future == null) {
+		msj('error', 'Complete all the questions');
 		return;
 	}
 	if(rate == null) {
+		msj('error', 'Complete all the questions');
 		return;
 	}
 	$.ajax({
