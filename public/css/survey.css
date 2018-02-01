@@ -244,6 +244,26 @@ p{
 .opacity-card .mdl-spinner{
 	margin: auto;
 }
+/*TABLE*/
 .mdl-card-table{
 	width: 100%;
+	position: relative;
+}
+.mdl-card-table .dt-buttons{
+	padding: 15px;
+}
+.dataTables_info {
+    margin: 15px;
+    padding: 0;
+}
+.dataTables_wrapper .dataTables_paginate {
+    margin: 15px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 10px;
 }

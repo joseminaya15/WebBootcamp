@@ -91,7 +91,8 @@
                   dom: 'Bfrtip',
                   buttons: [
                     'excel', 'print'
-                  ]
+                  ],
+                  "searching": false
               });
               $('.buttons-excel').empty();
               $('.buttons-print').empty();
