@@ -27,8 +27,8 @@ class M_encuesta extends  CI_Model{
     function getDatosPersona($Email) {
         $sql = "SELECT *
                   FROM persons
-                 WHERE Email = ?";
-        $result = $this->db->query($sql, array($Email));
+                 WHERE Email LIKE '%".$Email."%'";
+        $result = $this->db->query($sql);
         return $result->result();
     }
 
@@ -48,7 +48,7 @@ class M_encuesta extends  CI_Model{
                   FROM answers a,
                        persons p
                 WHERE p.Id = a.id_persona
-                  AND p.Email LIKE '".$correo."'";
+                  AND p.Email LIKE '%".$correo."%'";
         $result = $this->db->query($sql);
         return $result->result();
     }

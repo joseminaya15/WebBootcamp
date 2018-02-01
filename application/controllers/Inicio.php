@@ -29,14 +29,13 @@ class Inicio extends CI_Controller {
 			$correo = $this->input->post('correo');
 			$username = $this->M_encuesta->getDatosPersona($correo);
 			$datos = $this->M_encuesta->getDatosCorreos($correo);
-			//print_r($datos[0]->contador);
 			if($datos[0]->contador == 0) {
 				if(count($username) != 0) {
-					if($username[0]->Email == $correo) {
-					$session = array('correo' => $correo,
-									 'Nombres' => $username[0]->Nombres,
+					if(strtolower($username[0]->Email) == strtolower($correo)) {
+					$session = array('correo'    => $correo,
+									 'Nombres'   => $username[0]->Nombres,
 									 'Apellidos' => $username[0]->Apellidos,
-									 'Id' => $username[0]->Id);
+									 'Id' 		 => $username[0]->Id);
 	          		$this->session->set_userdata($session);
 					$data['error'] = EXIT_SUCCESS;
 					}
