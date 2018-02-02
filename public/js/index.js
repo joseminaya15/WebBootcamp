@@ -96,6 +96,7 @@ function enviarEncuesta(){
 		msj('error', 'Complete all the questions');
 		return;
 	}
+	$('#buttonSend').prop( "disabled", true );
 	$.ajax({
 		data  : { valor1 	  : valor1.toString(),
 				  valor2 	  : valor2.toString(),
