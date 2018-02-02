@@ -34,9 +34,6 @@ function enviarEncuesta(){
 	var valor2 = [];
 	var valor3 = [];
 	var valor4 = [];
-	/*$("input:checked").each(function() {
-	  valor.push($(this).val());
-	});*/
 	$('#preg1').find("input:checked").each(function() {
 	  valor1.push($(this).val());
 	});
